@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Detector_rev2)(type KiCad)(uri ${KIPRJMOD}/Detector_rev2.pretty)(options "")(descr ""))
+)

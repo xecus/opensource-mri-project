@@ -1,0 +1,60 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# COIL_IN
+#
+DEF COIL_IN U 0 40 Y Y 1 F N
+F0 "U" 100 300 50 H V C CNN
+F1 "COIL_IN" -100 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X sig+ 1 -50 150 100 L 50 50 1 1 I
+X GND 2 -50 0 100 L 50 50 1 1 I
+X sig- 3 -50 -150 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# con3
+#
+DEF con3 J 0 40 Y Y 1 F N
+F0 "J" 0 50 50 H V C CNN
+F1 "con3" -50 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X Vs+ 1 100 50 100 R 50 50 1 1 I
+X GND 2 100 -50 100 R 50 50 1 1 I
+X Vs- 3 100 -150 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# pin_header2
+#
+DEF pin_header2 U 0 40 Y Y 1 F N
+F0 "U" 0 -50 50 H V C CNN
+F1 "pin_header2" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X 1 1 -50 0 100 U 50 50 1 1 I
+X 2 2 50 0 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# pin_header4
+#
+DEF pin_header4 U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "pin_header4" 0 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X 1 1 -100 -50 100 U 50 50 1 1 I
+X 2 2 100 -50 100 U 50 50 1 1 I
+X 3 3 -100 -200 100 U 50 50 1 1 I
+X 4 4 100 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
