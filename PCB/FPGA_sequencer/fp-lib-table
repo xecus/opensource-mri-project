@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name FPGA_sequencer)(type KiCad)(uri ${KIPRJMOD}/FPGA_sequencer.pretty)(options "")(descr ""))
+)
