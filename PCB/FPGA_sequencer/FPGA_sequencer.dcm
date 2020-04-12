@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8065ARTZ-R2
+F https://www.analog.com/media/jp/technical-documentation/data-sheets/AD8065_8066_JP.pdf
+$ENDCMP
+#
 #End Doc Library
