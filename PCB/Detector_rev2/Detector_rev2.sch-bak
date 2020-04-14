@@ -414,17 +414,6 @@ F 3 "~" H 8950 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J1
-U 1 1 5E855AD4
-P 2050 2900
-F 0 "J1" H 2150 2875 50  0000 L CNN
-F 1 "Conn_Coaxial" H 2150 2784 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical" H 2050 2900 50  0001 C CNN
-F 3 " ~" H 2050 2900 50  0001 C CNN
-	1    2050 2900
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:EMI_Filter_LCL FL2
 U 1 1 5E86A4FA
 P 6150 1450
@@ -738,11 +727,7 @@ Wire Wire Line
 	7100 2850 7100 2750
 Wire Wire Line
 	7100 4150 7100 4250
-Wire Wire Line
-	2250 2900 2800 2900
 Connection ~ 2800 2900
-Wire Wire Line
-	2050 3100 2050 5450
 Connection ~ 2800 5450
 Connection ~ 7000 1550
 $Comp
@@ -1113,8 +1098,6 @@ Wire Wire Line
 	9100 3500 9300 3500
 Wire Wire Line
 	2800 5450 3300 5450
-Wire Wire Line
-	2050 5450 2800 5450
 $Comp
 L Detector_lib_R2:N-jfet_dual U2
 U 1 1 5E814FFF
@@ -1232,4 +1215,40 @@ F 3 "" H 8450 6050 50  0001 C CNN
 	1    8450 6050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5EE8C568
+P 1500 4200
+F 0 "J1" H 1608 4481 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1608 4390 50  0000 C CNN
+F 2 "Detector_rev2:input" H 1500 4200 50  0001 C CNN
+F 3 "~" H 1500 4200 50  0001 C CNN
+	1    1500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4100 1950 4100
+Wire Wire Line
+	1950 4100 1950 2900
+Wire Wire Line
+	1950 2900 2800 2900
+Wire Wire Line
+	1700 4300 1900 4300
+Wire Wire Line
+	1900 4300 1900 5450
+Wire Wire Line
+	1900 5450 2800 5450
+$Comp
+L power:GND #PWR0111
+U 1 1 5EE9DC3B
+P 2600 4200
+F 0 "#PWR0111" H 2600 3950 50  0001 C CNN
+F 1 "GND" H 2605 4027 50  0000 C CNN
+F 2 "" H 2600 4200 50  0001 C CNN
+F 3 "" H 2600 4200 50  0001 C CNN
+	1    2600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4200 2600 4200
 $EndSCHEMATC
