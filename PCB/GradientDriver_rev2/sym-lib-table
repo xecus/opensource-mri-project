@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name GradientDriver-cache)(type Legacy)(uri ${KIPRJMOD}/GradientDriver-cache.lib)(options "")(descr ""))
+  (lib (name Current_Controller)(type Legacy)(uri C:/Users/shiro/OneDrive/ドキュメント/Kicad_git/opensource-mri-project/PCB/Current_Controller/Current_Controller.lib)(options "")(descr ""))
+  (lib (name GradientDriver-rescue)(type Legacy)(uri ${KIPRJMOD}/GradientDriver-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Current_Controller)(type KiCad)(uri ${KIPRJMOD}/Current_Controller.pretty)(options "")(descr ""))
+  (lib (name Detector_rev2)(type KiCad)(uri C:/Users/shiro/OneDrive/ドキュメント/Kicad_git/opensource-mri-project/PCB/Detector_rev2/Detector_rev2.pretty)(options "")(descr ""))
+)
