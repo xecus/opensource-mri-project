@@ -1,4 +1,4 @@
-update=2020/05/16 1:44:18
+update=2020年05月16日 土曜日 21:41:49
 version=1
 last_client=pcbnew
 [general]
@@ -42,7 +42,8 @@ TrackWidth1=0.25
 TrackWidth2=0.5
 TrackWidth3=0.8
 TrackWidth4=1.2
-TrackWidth5=1.8
+TrackWidth5=1.6
+TrackWidth6=1.8
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -71,7 +72,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.021
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
